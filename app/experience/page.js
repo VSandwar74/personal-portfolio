@@ -46,16 +46,6 @@ export default function Home() {
         <>
             <Background styles={{position: "fixed"}}/>
             <Signature/>
-            {/* <div className="w-full h-16 flex flex-col relative justify-center text-white overflow-y-scroll">
-                <p>Hello</p>
-                <p>Hello</p>
-                <p>Hello</p>
-                <p>Hello</p>
-                <p>Hello</p>
-                <p>Hello</p>
-                <p>Hello</p>
-                <p>Hello</p>
-            </div> */}
             <main className="flex flex-col w-full h-screen relative justify-center items-center md:space-y-16">
                 <div className="flex flex-col h-[90%] overflow-y-auto w-full text-white text-center justify-start relative">
                     <h1 className="text-center font-bold text-6xl tracking-wider bg-gradient-to-r from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80% bg-clip-text text-transparent mt-32 mb-8">
@@ -69,9 +59,12 @@ export default function Home() {
                     >
                         <motion.div variants={rightCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pl-12 pr-2">
                             {/* <p className="text-black">Kaleido</p> */}
-                            <img
-                                src="https://yt3.googleusercontent.com/dVjfZA0zROzKKqZRwp0hsKEhlvO_BiDZF5PQzmEhVFS04Ah1LMZJAarOX2IMmcaXKQ_OgE4wrNY=s176-c-k-c0x00ffffff-no-rj"
+                            <Image
+                                src="https://media.licdn.com/dms/image/C560BAQFm0DWHwaIs8Q/company-logo_200_200/0/1635264078635?e=1698883200&v=beta&t=qLybri5MZxNUapj0vEa3VaVm0VZOhN86orIdN-mXrHU"
                                 className="rounded-full scale-75"
+                                alt="Company logo"
+                                height={150}
+                                width={150}
                             />
                             <h1 className="font-bold font-lg">Kaleido</h1>
                             <h2 className="ml-0 italic">Software &amp; Research Intern</h2>
@@ -88,9 +81,12 @@ export default function Home() {
                         viewport={{ once: true, amount: 0.8 }}
                     >
                         <motion.div variants={leftCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pr-16 pl-2">
-                            <img
+                            <Image
                                 src="https://media.licdn.com/dms/image/C4E0BAQE6-spao_I96Q/company-logo_200_200/0/1637085113519?e=1698883200&v=beta&t=3fBHn0GoZNVPywF-FM1KdmyuuHRbmrI-523BIDmQQdU"
                                 className="rounded-full scale-75"
+                                alt="Company logo"
+                                height={150}
+                                width={150}
                             />
                             <h1 className="font-bold font-lg">Hans Riemer Campaign</h1>
                             <h2 className="ml-0 italic">Research &amp; Policy Intern</h2>
@@ -108,9 +104,12 @@ export default function Home() {
                     >
                         <motion.div variants={rightCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pl-12 pr-2">
                             {/* <p className="text-black">Kaleido</p> */}
-                            <img
+                            <Image
                                 src="https://media.licdn.com/dms/image/C4E0BAQG1_7sJIsm6vg/company-logo_200_200/0/1671575377282?e=1698883200&v=beta&t=mCoVy2zHL4hIvK2OM5pw1JLR55CUums4jo9pQNaOPSo"
                                 className="rounded-full scale-75"
+                                alt="Company logo"
+                                height={150}
+                                width={150}
                             />
                             <h1 className="font-bold font-lg">TurnUp</h1>
                             <h2 className="ml-0 italic">Team Lead</h2>
@@ -128,9 +127,12 @@ export default function Home() {
                         viewport={{ once: true, amount: 0.8 }}
                     >
                         <motion.div variants={leftCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pr-16 pl-2">
-                            <img
+                            <Image
                                 src="https://media.licdn.com/dms/image/D560BAQHwquDS4aF7RQ/company-logo_200_200/0/1682968458103?e=1698883200&v=beta&t=NrhmFWvN4yda1EKQ2tWaMD-LlzTCuh12K3Ev3xkAFJQ"
                                 className="rounded-full scale-75"
+                                alt="Company logo"
+                                height={150}
+                                width={150}
                             />
                             <h1 className="font-bold font-lg">StandardDAO</h1>
                             <h2 className="ml-0 italic">Illicit Activity Research</h2>
@@ -148,9 +150,12 @@ export default function Home() {
                     >
                         <motion.div variants={rightCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pl-12 pr-2">
                             {/* <p className="text-black">Kaleido</p> */}
-                            <img
+                            <Image
                                 src="https://media.licdn.com/dms/image/C560BAQEH7iePi8WXrg/company-logo_200_200/0/1654043947455?e=1698883200&v=beta&t=EvMSJF2eCR7w05e5bcG1G_QD0DvMK08fKFwD9RdfbtM"
                                 className="rounded-full scale-75"
+                                alt="Company logo"
+                                height={150}
+                                width={150}
                             />
                             <h1 className="font-bold font-lg">Pupil</h1>
                             <h2 className="ml-0 italic">Software Engineer</h2>
@@ -168,9 +173,12 @@ export default function Home() {
                         viewport={{ once: true, amount: 0.8 }}
                     >
                         <motion.div variants={leftCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pr-16 pl-2">
-                            <img
+                            <Image
                                 src="https://media.licdn.com/dms/image/C4D0BAQF6TmzLkch0dQ/company-logo_200_200/0/1561566354660?e=1698883200&v=beta&t=yjTuOwPXCQO3tPbNGnCvqkzOa53OmWE0QOycuyM6UV0"
                                 className="rounded-full scale-75"
+                                alt="Company logo"
+                                height={150}
+                                width={150}
                             />
                             <h1 className="font-bold font-lg">Klann Lab at NYU</h1>
                             <h2 className="ml-0 italic">Computational Biology RA</h2>
@@ -188,8 +196,11 @@ export default function Home() {
                     >
                         <motion.div variants={rightCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pl-12 pr-2">
                             {/* <p className="text-black">Kaleido</p> */}
-                            <img src="https://media.licdn.com/dms/image/C4D0BAQFAQ0-ch4J8RQ/company-logo_200_200/0/1626284322036?e=1698883200&v=beta&t=UJTcDKr82gyWvV9KEc7HAUHmZfDo6WqTtqmQgJjP5CU" 
-                            className="rounded-full scale-75" /> 
+                            <Image src="https://media.licdn.com/dms/image/C4D0BAQFAQ0-ch4J8RQ/company-logo_200_200/0/1626284322036?e=1698883200&v=beta&t=UJTcDKr82gyWvV9KEc7HAUHmZfDo6WqTtqmQgJjP5CU" 
+                            className="rounded-full scale-75" 
+                            height={150}
+                            width={150}
+                            alt="Company logo"/> 
                             <h1 className="font-bold font-lg">Daloopa</h1> 
                             <h2 className="ml-0 italic">Deep Learning Intern</h2> 
                             <h2>Summer 2023</h2> 

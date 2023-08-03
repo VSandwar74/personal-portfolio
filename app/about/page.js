@@ -3,6 +3,7 @@ import { useTypewriter, Typewriter } from "react-simple-typewriter";
 import Background from "../Background";
 import Signature from "../Signature";
 import Footer from "../Footer";
+// import Image from "next/image";
 import Image from "next/image";
 import NavBar from "../NavBar";
 import { AiOutlinePaperClip } from 'react-icons/ai';
@@ -46,7 +47,7 @@ export default function Home() {
                                 />
                         </p>
                         {/* Add next image */}
-                        <img
+                        <Image
                             // src="https://images.squarespace-cdn.com/content/v1/54455593e4b026d1c3c6f497/772569f1-f879-4aff-bf52-a61a74202a93/vishakh.jpg"
                             src="https://media.licdn.com/dms/image/C5603AQH2MEhn9EHnoQ/profile-displayphoto-shrink_400_400/0/1654121330712?e=1696464000&v=beta&t=ArDRR8f0-8hGwRd0zGi0DL8PA2t8Z5tzGVlNBMeuVUg"
                             width={300}
