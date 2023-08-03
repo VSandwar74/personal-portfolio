@@ -1,0 +1,51 @@
+[
+    {
+      "title": "HackJack",
+      "stack": ["Python ", "Flask ", "YoloV5 ", "PyTorch"],
+      "date": "Jul-Aug 2023",
+      "description": "Trained an YoloV5 model on online blackjack footage to card counts and train a reinforcement learning model to assess card counting strategy. NOT IN USE. WILL NOT PUBLISH CODE ONLINE.",
+      "link": "https://example.com/project2",
+      "tags": ["web development", "back-end"]
+    },
+    {
+      "title": "QFS Order Book - Live Market Making Game",
+      "stack": ["React ", "TypeScript ", "Firebase ", "TailwindCSS"],
+      "date": "Apr 2023",
+      "description": "App built with room functionality to create markets on extraneous assets with bid/ask, market buy, market sell functionality and live updates. Built for the NYU Quantitative Finance Society. Inspired by PokerNow.",
+      "link": "https://qfsorderbook.netlify.app/",
+      "tags": ["web development", "full-stack", "high-use"]
+    },
+    {
+      "title": "OrderBook System Design",
+      "stack": ["C++ ", "Python"],
+      "date": "Summer 2023",
+      "description": "Top algorithmic comlpexity built for market making trade idea for summer '23. Used heaps, doubly linked lists and hash maps to create LOBSTER reconstructions in both C++ and Python.",
+      "link": "https://github.com/VSandwar74/LowLevelOrderbook",
+      "tags": ["system design", "quant", "trading"]
+    },
+    {
+      "title": "near.social Sentiment Analysis",
+      "stack": ["React ", "NEAR ", "Hono ", "Python ", "TypeScript "],
+      "date": "Apr 2023",
+      "description": "Won 1st - Best NYU Project @ LionHack '23. A data viz built on-chain on the Near protocol. Using cron, systematically extracts data off-chain, processes using VADER and exports back on-chain using API built using Hono and hosted on Railway.",
+      "link": "https://github.com/VSandwar74/lionhacks23",
+      "tags": ["web dev", "full-stack"]
+    },
+    {
+      "title": "This Website!",
+      "stack": ["React ", "TailwindCSS "],
+      "date": "August 2023",
+      "description": "You've clearly been looking around, feel free to check out the source code to see what I used to build it!",
+      "link": "https://example.com/project3",
+      "tags": ["web dev", "react"]
+    },
+    {
+      "title": "NYU Blockchain and Fintech Website",
+      "stack": ["React ", "ethers.js ", "JavaScript"],
+      "date": "May 2023",
+      "description": "Built the website for the NYU Blockchain and Fintech club and will serve as the development coordinator for Fall 2023.",
+      "link": "https://nyubnf.netlify.app",
+      "tags": ["web dev", "full-stack"]
+    }
+  ]
+  
