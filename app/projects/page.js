@@ -17,8 +17,8 @@ export function Card({ name, date, stack, tags, link, description }) {
         <h1 className="font-bold text-lg">{name}</h1>
         <h2 className="italic">{date}</h2>
         <div className="flex flex-row gap-2 text-white">
-          {tags.map((tag) => (
-            <div className="rounded-full px-2 py-1 bg-purple-400">{tag}</div>
+          {tags.map((tag, i) => (
+            <div key={i} className="rounded-full px-2 py-1 bg-purple-400">{tag}</div>
           ))}
         </div>
         <p>{description}</p>
@@ -42,10 +42,8 @@ export default function Home() {
                   PROJECTS
                 </h1>
                 <div className="grid grid-cols-3 gap-8 w-[90%] grid-flow-row overflow-y-scroll items-center justify-center -mt-12 ml-2">
-                  {projects.map((project) => (
-                    <div>
-                      <Card className="col-span-1" name={project.title} date={project.date} stack={project.stack} tags={project.tags} description={project.description} link={project.link}/>
-                    </div>
+                  {projects.map((project, i) => (
+                      <Card key={i} className="col-span-1" name={project.title} date={project.date} stack={project.stack} tags={project.tags} description={project.description} link={project.link}/>
                   ))}
                 </div>
                 <NavBar/>
