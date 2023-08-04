@@ -45,7 +45,7 @@ export default function NavBar() {
         <motion.nav
           initial={false}
           animate={isOpen ? "open" : "closed"}
-          className='z-10'
+          className={`z-10 ${isOpen ? "block" : "none"}`}
         >
           <MenuToggle toggle={() => toggleOpen()} />
           <motion.div className="absolute top-0 bottom-0 right-0 w-[25%] p-12 flex flex-col bg-gray-200" variants={variants}>

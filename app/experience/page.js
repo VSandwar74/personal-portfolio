@@ -47,6 +47,7 @@ export default function Home() {
             <Background styles={{position: "fixed"}}/>
             <Signature/>
             <main className="flex flex-col w-full h-screen relative justify-center items-center md:space-y-16">
+
                 <div className="flex flex-col h-[90%] overflow-y-auto w-full text-white text-center justify-start relative">
                     <h1 className="text-center font-bold text-6xl tracking-wider bg-gradient-to-r from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80% bg-clip-text text-transparent mt-32 mb-8">
                         MY EXPERIENCE

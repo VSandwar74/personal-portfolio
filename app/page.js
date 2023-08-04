@@ -15,7 +15,7 @@ export default function Home() {
       </div> */}
       <Signature/>
       
-      <main className="flex min-h-screen flex-col items-center justify-center scrol z-1 relative">
+      <main className="flex min-h-screen flex-col items-center justify-center scrol z-1 relative overflow-x-hidden">
 
         <Hero/>
 

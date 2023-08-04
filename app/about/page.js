@@ -26,6 +26,7 @@ export default function Home() {
             <Background/>
             <Signature/>
             <main className="flex flex-col min-h-screen w-full relative justify-center items-center md:space-y-8">
+
                 <div className="flex flex-col w-full justify-center items-center relative">
                     <h1 className="text-center font-bold text-6xl tracking-wider bg-gradient-to-r from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80% bg-clip-text text-transparent mb-8">
                         ABOUT ME!
@@ -41,9 +42,9 @@ export default function Home() {
                                 // loop={false}
                                 cursor
                                 cursorStyle='|'
-                                typeSpeed={10}
+                                typeSpeed={5}
                                 deleteSpeed={50}
-                                delaySpeed={100}
+                                delaySpeed={50}
                                 />
                         </p>
                         {/* Add next image */}
@@ -61,6 +62,8 @@ export default function Home() {
                             initial={false}
                             variants={variants}
                             animate={isDone ? "visible" : "hidden"}
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.95 }}
                             className="text-white flex flex-row items-center space-x-4 bg-black border-white border-2 rounded-full px-4 py-2">
                             <AiOutlinePaperClip className=""/>
                             <h2>My Resume!</h2>
