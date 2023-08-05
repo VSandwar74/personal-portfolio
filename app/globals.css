@@ -7,6 +7,85 @@
   font-family: 'Playfair Display', serif;
 }
 
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8B5CF6; /* purple-400 */
+  border-radius: 4px;
+}
+
+/* 
+::-webkit-scrollbar-track { 
+  background-color: #EDF2F7; 
+} */
+
+.out {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Prevent scrolling while animation happens */
+}
+.elevator-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.elevator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  /* z-index: 1; */
+}
+.right {
+  right: 0;
+}
+.left { 
+  left: 0
+}
+.outside-right {
+  /* clip-path: polygon(50% 0, 80% 50%, 50% 100%, 0 100%, 0% 50%, 0 0);*/
+  clip-path: polygon(50% 0, 80% 50%, 50% 100%, 100% 100%, 100% 50%, 100% 0);
+}
+.outside-left {
+  /* clip-path: polygon(50% 0, 80% 50%, 50% 100%, 0 100%, 0% 50%, 0 0); */
+  clip-path: polygon(50% 0, 20% 50%, 50% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+/* .inside-right,
+.inside-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: #222;
+  z-index: 0;
+} */
+
+.elevator-door-left {
+  left: 0;
+  clip-path: polygon(50% 0, 20% 50%, 50% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+.elevator-door-right {
+  right: 0;
+  clip-path: polygon(50% 0, 80% 50%, 50% 100%, 100% 100%, 100% 50%, 100% 0);
+}
+
+/* .inside-right {
+  right: 0;
+  clip-path: polygon(50% 0%, 50% 100%, 80% 50%);
+}
+
+.inside-left {
+  left: 0;
+  clip-path: polygon(50% 0%, 50% 100%, 30% 50%);
+} */
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

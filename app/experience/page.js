@@ -1,12 +1,13 @@
 'use client'
 import { Typewriter } from "react-simple-typewriter";
 import Background from "../Background";
-import Signature from "../Signature";
-import Footer from "../Footer";
+import Signature from "../Footer";
+import Footer from "../Signature";
 import Image from "next/image";
 import NavBar from "../NavBar";
 import { motion } from "framer-motion";
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
+import Mask from "../mask";
 
 export default function Home() {
 
@@ -43,9 +44,8 @@ export default function Home() {
 
 
     return (
-        <>
+        <Mask>
             <Background styles={{position: "fixed"}}/>
-            <Signature/>
             <main className="flex flex-col w-full h-screen relative justify-center items-center md:space-y-16">
 
                 <div className="flex flex-col h-[90%] overflow-y-auto w-full text-white text-center justify-start relative">
@@ -209,7 +209,7 @@ export default function Home() {
                             <p className="ml-5">Highlights: Built add-on to table transformer, debugged edge cases</p>
                         </motion.div>
                     </motion.div>
-                    <div className="absolute overflow-y-scroll h-[550%] ml-[49.5%] mt-60 w-4 bg-gradient-to-b from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80%">
+                    <div className="absolute overflow-y-scroll h-[560%] ml-[49.5%] mt-60 w-4 bg-gradient-to-b from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80%">
                         <BsFillArrowDownCircleFill
                             color="#000000"
                             className="fixed z-5 bottom-16 scale-150"
@@ -217,8 +217,10 @@ export default function Home() {
                     </div>
                 </div>
                 <NavBar/>
+                <Signature/>
+
                 <Footer/>
             </main>
-        </>
+        </Mask>
     )
 }

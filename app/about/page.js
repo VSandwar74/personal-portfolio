@@ -1,13 +1,14 @@
 'use client'
 import { useTypewriter, Typewriter } from "react-simple-typewriter";
 import Background from "../Background";
-import Signature from "../Signature";
-import Footer from "../Footer";
+import Signature from "../Footer";
+import Footer from "../Signature";
 // import Image from "next/image";
 import Image from "next/image";
 import NavBar from "../NavBar";
 import { AiOutlinePaperClip } from 'react-icons/ai';
 import { motion } from "framer-motion";
+import Mask from "../mask";
 
 export default function Home() {
 
@@ -22,9 +23,8 @@ export default function Home() {
 
 
     return (
-        <>
+        <Mask>
             <Background/>
-            <Signature/>
             <main className="flex flex-col min-h-screen w-full relative justify-center items-center md:space-y-8">
 
                 <div className="flex flex-col w-full justify-center items-center relative">
@@ -71,8 +71,9 @@ export default function Home() {
                     </a>
                 </div>
                 <NavBar/>
+                <Signature/>
                 <Footer/>
             </main>
-        </>
+        </Mask>
     )
 }
