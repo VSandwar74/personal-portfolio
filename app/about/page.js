@@ -31,8 +31,8 @@ export default function Home() {
                     <h1 className="text-center font-bold text-6xl tracking-wider bg-gradient-to-r from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80% bg-clip-text text-transparent mb-8">
                         ABOUT ME!
                     </h1>
-                    <div className="w-[65%] flex flex-row justify-center space-x-4">
-                        <p className="text-white text-lg w-[50%]">
+                    <div className="w-[80%] md:w-[65%] flex flex-col-reverse md:flex-row justify-center space-x-4">
+                        <p className="text-white text-sm md:text-lg w-[100%] md:w-[50%] ">
                             <Typewriter
                                 words={[`Thanks for checking out my page! I'm a second year at New York University/NYU Stern intending to major in Finance and Math with a minor in Computer Science. 
                                 At school I'm active in our quant and blockchain clubs and am currently researching in the Klann Lab. Following industry protocol I don't post my quant pitches but if 
@@ -42,7 +42,7 @@ export default function Home() {
                                 // loop={false}
                                 cursor
                                 cursorStyle='|'
-                                typeSpeed={5}
+                                typeSpeed={2}
                                 deleteSpeed={50}
                                 delaySpeed={50}
                                 />

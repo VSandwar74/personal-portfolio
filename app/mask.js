@@ -6,7 +6,8 @@ export default function Mask({ children }) {
     return (
         <div className='out'>
             {/* <AnimatePresence mode='wait' exit className="elevator-container"> */}
-            <AnimatePresence initial={false} mode='popLayout'>
+            <AnimatePresence mode='popLayout'>
+            {/* <AnimatePresence initial={false} mode='popLayout'> */}
                 {children}
             </AnimatePresence>
                 {/* <motion.div 

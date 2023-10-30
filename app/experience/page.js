@@ -16,7 +16,7 @@ export default function Home() {
           x: -500
         },
         onscreen: {
-          x: -250,
+          x: -300,
           rotate: 10,
           transition: {
             type: "spring",
@@ -31,7 +31,7 @@ export default function Home() {
           x: 500
         },
         onscreen: {
-          x: 250,
+          x: 300,
           rotate: -10,
           transition: {
             type: "spring",
@@ -48,7 +48,7 @@ export default function Home() {
             <Background styles={{position: "fixed"}}/>
             <main className="flex flex-col w-full h-screen relative justify-center items-center md:space-y-16">
 
-                <div className="flex flex-col h-[90%] overflow-y-auto w-full text-white text-center justify-start relative">
+                <div className="flex flex-col h-[90%] overflow-x-hidden overflow-y-auto w-full text-white text-center justify-start relative">
                     <h1 className="text-center font-bold text-6xl tracking-wider bg-gradient-to-r from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80% bg-clip-text text-transparent mt-32 mb-8">
                         MY EXPERIENCE
                     </h1>
@@ -209,7 +209,7 @@ export default function Home() {
                             <p className="ml-5">Highlights: Built add-on to table transformer, debugged edge cases</p>
                         </motion.div>
                     </motion.div>
-                    <div className="absolute overflow-y-scroll h-[560%] ml-[49.5%] mt-60 w-4 bg-gradient-to-b from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80%">
+                    <div className="absolute overflow-y-scroll h-[590%] ml-[49.5%] mt-60 w-4 bg-gradient-to-b from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80%">
                         <BsFillArrowDownCircleFill
                             color="#000000"
                             className="fixed z-5 bottom-16 scale-150"

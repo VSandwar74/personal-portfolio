@@ -48,7 +48,7 @@ export default function NavBar() {
           className={`z-10 ${isOpen ? "block" : "none"}`}
         >
           <MenuToggle toggle={() => toggleOpen()} />
-          <motion.div className="absolute top-0 bottom-0 right-0 w-[25%] p-12 flex flex-col bg-gray-200" variants={variants}>
+          <motion.div className="absolute top-0 bottom-0 right-0 w-[25%] p-4 py-12 md:p-12 flex flex-col bg-gray-200" variants={variants}>
             <motion.ul
               variants={listvariants}
               className='space-y-8'
@@ -60,7 +60,7 @@ export default function NavBar() {
               >
                 <Link href="/" className='flex flex-row items-center space-x-2 w-full'>
                   <div className='border-2 border-[#111827] rounded-full p-2'><FaHome size="2em" color='#111827'/></div>
-                  <div className='border-2 border-[#111827] w-full text-center rounded-full p-2 text-[#111827]'>Home</div>
+                  <div className='hidden md:flex border-2 border-[#111827] w-full text-center rounded-full p-2 text-[#111827]'>Home</div>
                 </Link>
               </motion.li>
               <motion.li
@@ -70,7 +70,7 @@ export default function NavBar() {
               >
                 <Link href="/about" className='flex flex-row items-center space-x-2 w-full'>
                   <div className='border-2 border-[#FF99FF] rounded-full p-2'><BsPersonBadge size="2em" color='#FF99FF'/></div>
-                  <div className='border-2 border-[#FF99FF] w-full text-center rounded-full p-2 text-[#FF99FF]'>About Me</div>
+                  <div className='hidden md:flex border-2 border-[#FF99FF] w-full text-center rounded-full p-2 text-[#FF99FF]'>About Me</div>
                 </Link>
               </motion.li>
               <motion.li
@@ -81,7 +81,7 @@ export default function NavBar() {
               >
                 <Link href="/experience" className='flex flex-row items-center space-x-2 w-full'>
                   <div className='border-2 border-[#CC99CC] rounded-full p-2'><BsBriefcase size="2em" color='#CC99CC'/></div>
-                  <div className='border-2 border-[#CC99CC] w-full text-center rounded-full p-2 text-[#CC99CC]'>Experience</div>
+                  <div className='hidden md:flex border-2 border-[#CC99CC] w-full text-center rounded-full p-2 text-[#CC99CC]'>Experience</div>
                 </Link>
               </motion.li>
               <motion.li
@@ -92,7 +92,7 @@ export default function NavBar() {
               >
                 <Link href="/projects" className='flex flex-row items-center space-x-2 w-full'>
                   <div className='border-2 border-[#0099FF] rounded-full p-2'><BsInboxesFill size="2em" color="#0099FF"/></div>
-                  <div className='border-2 border-[#0099FF] w-full text-center rounded-full p-2 text-[#0099FF]'>Projects</div>
+                  <div className='hidden md:flex border-2 border-[#0099FF] w-full text-center rounded-full p-2 text-[#0099FF]'>Projects</div>
                 </Link>
               </motion.li>
             </motion.ul>
