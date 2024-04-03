@@ -30,7 +30,7 @@ export function Card({ name, date, stack, tags, link, description, i }) {
       <div className="">
         <h1 className="font-bold text-lg">{name}</h1>
         <h2 className="italic">{date}</h2>
-        <div className="flex flex-row gap-2 text-white">
+        <div className="flex flex-row gap-2 text-white max-h-12 flex-wrap">
           {tags.map((tag, j) => (
             <div key={j} className={`rounded-full px-3 py-1 ${getColor(i)}`}>{tag}</div>
           ))}
