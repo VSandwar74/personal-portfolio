@@ -49,15 +49,14 @@ export default function Home() {
                         </p>
                         {/* Add next image */}
                         <Image
-                            // src="https://images.squarespace-cdn.com/content/v1/54455593e4b026d1c3c6f497/772569f1-f879-4aff-bf52-a61a74202a93/vishakh.jpg"
-                            src="https://media.licdn.com/dms/image/C5603AQH2MEhn9EHnoQ/profile-displayphoto-shrink_400_400/0/1654121330712?e=1696464000&v=beta&t=ArDRR8f0-8hGwRd0zGi0DL8PA2t8Z5tzGVlNBMeuVUg"
+                            src="https://i.ibb.co/9y5X3gD/image.png"
                             width={300}
                             height={550}
                             alt="Portrait photo of Vishakh"
                             className="border-4 border-white rounded-lg z-0"
                             />
                     </div>
-                    <a href="https://docs.google.com/document/d/1Ql5uNqdPU7n7GQLJIQ3bz1Pp8huwS_sH/edit?usp=sharing&ouid=100335745819517056832&rtpof=true&sd=true">
+                    <a href="https://drive.google.com/file/d/13pis9StRyFrKakNQJA-GcZ4H02VvtpK4/view?usp=sharing">
                         <motion.div 
                             initial={false}
                             variants={variants}

@@ -1,5 +1,21 @@
 [
     {
+      "title": "Droplyt",
+      "stack": ["Flask, ", "React, ", "Tailwind, ", "Next, ", "Supabase, ", "Mathematica"],
+      "date": "Mar 2024",
+      "description": "Won 1st – Sustainability @ Yale Hack '24 and ActualFood challenge. Users provide an address, DropLyt utilizes computation geometry and constrained optimization to determine the most efficient sprinkler placement for irrigation systems on plots. DropLyt further integrates NOAA APIs to access real-time atmospheric data, controlling sprinklers according to the Penman-Monteith Equation so that water output matches evapotranspiration loss. ",
+      "link": "https://github.com/VSandwar74/rust-NN",
+      "tags": ["hackathon", "full-stack", "mathematical modeling"]
+    },
+    {
+      "title": "Rust Neural Network",
+      "stack": ["Rust, ", "NDArray"],
+      "date": "Mar 2024",
+      "description": "Built entirely in rust. Build algorithms for forward propogation, backward propogation, and accuracy calculation using only ndarray for linear algebra.",
+      "link": "https://github.com/VSandwar74/rust-NN",
+      "tags": ["low-level", "back-end", "ML"]
+    },
+    {
       "title": "HackJack",
       "stack": ["Python, ", "Flask, ", "YoloV5, ", "PyTorch"],
       "date": "Jul-Aug 2023",

@@ -49,6 +49,7 @@ export default function Home() {
             <main className="flex flex-col w-full h-screen relative justify-center items-center md:space-y-16">
 
                 <div className="flex flex-col h-[90%] overflow-x-hidden overflow-y-auto w-full text-white text-center justify-start relative">
+                    {/* <h1 className="text-center font-bold text-6xl tracking-wider bg-gradient-to-r from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80% bg-clip-text text-white mt-32 mb-8"> */}
                     <h1 className="text-center font-bold text-6xl tracking-wider bg-gradient-to-r from-red-300 from-20% via-purple-400 via-40% to-blue-600 to-80% bg-clip-text text-transparent mt-32 mb-8">
                         MY EXPERIENCE
                     </h1>
@@ -61,7 +62,7 @@ export default function Home() {
                         <motion.div variants={rightCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pl-12 pr-2">
                             {/* <p className="text-black">Kaleido</p> */}
                             <Image
-                                src="https://media.licdn.com/dms/image/C560BAQFm0DWHwaIs8Q/company-logo_200_200/0/1635264078635?e=1698883200&v=beta&t=qLybri5MZxNUapj0vEa3VaVm0VZOhN86orIdN-mXrHU"
+                                src="https://media.licdn.com/dms/image/C560BAQFm0DWHwaIs8Q/company-logo_100_100/0/1635264078996/kaleido_io_logo?e=1720051200&v=beta&t=Af8qf6xiuWXatOb4bKU3aGO6o0JQjfrPJyDeP_N39EE"
                                 className="rounded-full scale-75"
                                 alt="Company logo"
                                 height={150}
@@ -83,7 +84,7 @@ export default function Home() {
                     >
                         <motion.div variants={leftCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pr-16 pl-2">
                             <Image
-                                src="https://media.licdn.com/dms/image/C4E0BAQE6-spao_I96Q/company-logo_200_200/0/1637085113519?e=1698883200&v=beta&t=3fBHn0GoZNVPywF-FM1KdmyuuHRbmrI-523BIDmQQdU"
+                                src="https://media.licdn.com/dms/image/C4E0BAQE6-spao_I96Q/company-logo_100_100/0/1637085114070?e=1720051200&v=beta&t=aDMfblB-LK1gNvThB4Tz7S1kR0XZ0NyWqv86haAR4W8"
                                 className="rounded-full scale-75"
                                 alt="Company logo"
                                 height={150}
@@ -106,7 +107,7 @@ export default function Home() {
                         <motion.div variants={rightCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pl-12 pr-2">
                             {/* <p className="text-black">Kaleido</p> */}
                             <Image
-                                src="https://media.licdn.com/dms/image/C4E0BAQG1_7sJIsm6vg/company-logo_200_200/0/1671575377282?e=1698883200&v=beta&t=mCoVy2zHL4hIvK2OM5pw1JLR55CUums4jo9pQNaOPSo"
+                                src="https://media.licdn.com/dms/image/C4E0BAQG1_7sJIsm6vg/company-logo_100_100/0/1671575378511/turnup_activism_logo?e=1720051200&v=beta&t=pZHIj8azYSLXdKtIagH4iz86Ph8fDE-FJxF3tOUjbd8"
                                 className="rounded-full scale-75"
                                 alt="Company logo"
                                 height={150}
@@ -129,7 +130,7 @@ export default function Home() {
                     >
                         <motion.div variants={leftCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pr-16 pl-2">
                             <Image
-                                src="https://media.licdn.com/dms/image/D560BAQHwquDS4aF7RQ/company-logo_200_200/0/1682968458103?e=1698883200&v=beta&t=NrhmFWvN4yda1EKQ2tWaMD-LlzTCuh12K3Ev3xkAFJQ"
+                                src="https://media.licdn.com/dms/image/D560BAQHwquDS4aF7RQ/company-logo_100_100/0/1682968458389/standarddao_logo?e=1720051200&v=beta&t=A021VeThhOonsMmOEpsaLvxYThZAdE9nTxUuBCvsUqs"
                                 className="rounded-full scale-75"
                                 alt="Company logo"
                                 height={150}
@@ -152,7 +153,7 @@ export default function Home() {
                         <motion.div variants={rightCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pl-12 pr-2">
                             {/* <p className="text-black">Kaleido</p> */}
                             <Image
-                                src="https://media.licdn.com/dms/image/C560BAQEH7iePi8WXrg/company-logo_200_200/0/1654043947455?e=1698883200&v=beta&t=EvMSJF2eCR7w05e5bcG1G_QD0DvMK08fKFwD9RdfbtM"
+                                src="https://media.licdn.com/dms/image/D4E0BAQHvbZ6C_YJZAQ/company-logo_100_100/0/1691947629903?e=1720051200&v=beta&t=Enkjmo63c7JZmAbREc6HbA7pGKMCiOHZVdsb_y3hcU0"
                                 className="rounded-full scale-75"
                                 alt="Company logo"
                                 height={150}
@@ -175,7 +176,7 @@ export default function Home() {
                     >
                         <motion.div variants={leftCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pr-16 pl-2">
                             <Image
-                                src="https://media.licdn.com/dms/image/C4D0BAQF6TmzLkch0dQ/company-logo_200_200/0/1561566354660?e=1698883200&v=beta&t=yjTuOwPXCQO3tPbNGnCvqkzOa53OmWE0QOycuyM6UV0"
+                                src="https://media.licdn.com/dms/image/C4D0BAQF6TmzLkch0dQ/company-logo_100_100/0/1630556159190/new_york_university_logo?e=1720051200&v=beta&t=zbVjy7-EA27f0vHGh1IrcKWskT-M4H8NQVKVN1xDEHk"
                                 className="rounded-full scale-75"
                                 alt="Company logo"
                                 height={150}
@@ -197,7 +198,7 @@ export default function Home() {
                     >
                         <motion.div variants={rightCard} className="bg-white w-80 h-[400px] rounded-xl flex flex-col items-center text-gray-900 pl-12 pr-2">
                             {/* <p className="text-black">Kaleido</p> */}
-                            <Image src="https://media.licdn.com/dms/image/C4D0BAQFAQ0-ch4J8RQ/company-logo_200_200/0/1626284322036?e=1698883200&v=beta&t=UJTcDKr82gyWvV9KEc7HAUHmZfDo6WqTtqmQgJjP5CU" 
+                            <Image src="https://media.licdn.com/dms/image/D4E0BAQG9p8CdOX4Vog/company-logo_100_100/0/1709585524663/daloopa_logo?e=1720051200&v=beta&t=bFj3SxUViwxMix6p9Euxv-sJEjvkobsc0Xmv1sYVnGg" 
                             className="rounded-full scale-75" 
                             height={150}
                             width={150}

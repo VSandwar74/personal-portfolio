@@ -15,6 +15,10 @@ module.exports = {
           protocol: 'https',
           hostname: '**.example.com',
         },
+        { protocol: 'https', 
+          hostname: 'i.ibb.co', 
+          pathname: '/**/**.png',
+        },
       ],
     },
   }
