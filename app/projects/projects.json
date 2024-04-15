@@ -19,7 +19,7 @@
       "title": "ArxViz",
       "stack": ["Python, ", "Jupyter, ", "Nomic, ", "Mispeek"],
       "date": "Apr 2024",
-      "description": "We designed a scraping script to find random URLs on Arxiv, ensuring a constant stream of new research papers. (Note: Soon, we'll transition to the Arxiv AWS API for even smoother data access.). Then we utilized the Mixpeek API, downloading research papers as PDFs to the MongoDB Atlas Vector Database. Using the Mixpeek Client's tools, we analyze research papers' text and integrate Nomic-AI's embeddings, providing insights into their content and significance. Finally our platform uses advanced techniques like Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE) to create easy-to-understand visualizations of research clusters, helping users explore connections and trends.",
+      "description": "We designed a scraping script to find random URLs on Arxiv, ensuring a constant stream of new research papers. Then we utilized the Mixpeek API, downloading research papers as PDFs to the MongoDB Atlas Vector Database. We integrate Nomic-AI's embeddings, providing insights into their content and significance. Finally we use Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE) to create research clusters visualizations, helping users explore connections and trends.",
       "link": "https://github.com/VSandwar74/rust-NN",
       "tags": ["hackathon", "gen ai", "vector embeddings", "visualization"]
     },
