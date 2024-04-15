@@ -1,5 +1,13 @@
 [
     {
+      "title": "Quant Portfolio",
+      "stack": ["Python, ", "Jupyter"],
+      "date": "Oct 2022 - Present",
+      "description": "Various assortments of quantitative trading ideas for QFS",
+      "link": "https://drive.google.com/drive/folders/1AXbt8O1lhF5tVetYWtyv3a9zGeHvnuFs?usp=sharing",
+      "tags": ["quant", "data science", "big data"]
+    },
+    {
       "title": "Convolutional Quantum Monte Carlos",
       "stack": ["Qiskit, ", "Python, ", "Streamlit"],
       "date": "Apr 2024",
