@@ -1,5 +1,21 @@
 [
     {
+      "title": "Convolutional Quantum Monte Carlos",
+      "stack": ["Qiskit, ", "Python, ", "Streamlit"],
+      "date": "Apr 2024",
+      "description": "A submission for the Yale Quantum Hackathon for The Hartford/Capgemini/Quantinuum challenge. We were given a basic quantum monte carlo circuit, through qiskit-finance. We developed two novel solutions, the first being pruning/quantum knitting and the second being a novel solution we designed using convolutions, which scaled the qubits by quantum adders instead of a large PDF encoding circuit.",
+      "link": "https://github.com/VSandwar74/streamlit",
+      "tags": ["hackathon", "quantum computing", "circuitry"]
+    },
+    {
+      "title": "ArxViz",
+      "stack": ["Python, ", "Jupyter, ", "Nomic, ", "Mispeek"],
+      "date": "Apr 2024",
+      "description": "We designed a scraping script to find random URLs on Arxiv, ensuring a constant stream of new research papers. (Note: Soon, we'll transition to the Arxiv AWS API for even smoother data access.). Then we utilized the Mixpeek API, downloading research papers as PDFs to the MongoDB Atlas Vector Database. Using the Mixpeek Client's tools, we analyze research papers' text and integrate Nomic-AI's embeddings, providing insights into their content and significance. Finally our platform uses advanced techniques like Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE) to create easy-to-understand visualizations of research clusters, helping users explore connections and trends.",
+      "link": "https://github.com/VSandwar74/rust-NN",
+      "tags": ["hackathon", "gen ai", "vector embeddings", "visualization"]
+    },
+    {
       "title": "Droplyt",
       "stack": ["Flask, ", "React, ", "Tailwind, ", "Next, ", "Supabase, ", "Mathematica"],
       "date": "Mar 2024",
