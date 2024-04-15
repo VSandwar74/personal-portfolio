@@ -19,7 +19,7 @@
       "title": "ArxViz",
       "stack": ["Python, ", "Nomic, ", "MixPeek"],
       "date": "Apr 2024",
-      "description": "We designed a scraping script to find random URLs on Arxiv, ensuring a constant stream of new research papers. Then we utilized the Mixpeek API, downloading research papers as PDFs to the MongoDB Atlas Vector Database. We integrate Nomic-AI's embeddings, providing insights into their content and significance. Finally we use Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE) to create research clusters visualizations, helping users explore connections and trends.",
+      "description": "We designed a scraping script to find random URLs on Arxiv, then through the Mixpeek API, download research papers as PDFs to the MongoDB Atlas Vector Database. We integrate Nomic-AI's embeddings, providing insights into their content and significance. Finally we use PCA and t-distributed Stochastic Neighbor Embedding (t-SNE) to create research clusters visualizations, helping users explore.",
       "link": "https://atlas.nomic.ai/data/vs2800/cynical-schmidhuber/map",
       "tags": ["hackathon", "gen ai", "embeddings"]
     },
