@@ -20,15 +20,15 @@
       "stack": ["Python, ", "Nomic, ", "MixPeek"],
       "date": "Apr 2024",
       "description": "We designed a scraping script to find random URLs on Arxiv, ensuring a constant stream of new research papers. Then we utilized the Mixpeek API, downloading research papers as PDFs to the MongoDB Atlas Vector Database. We integrate Nomic-AI's embeddings, providing insights into their content and significance. Finally we use Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE) to create research clusters visualizations, helping users explore connections and trends.",
-      "link": "https://github.com/VSandwar74/rust-NN",
-      "tags": ["hackathon", "gen ai", "vector embeddings", "visualization"]
+      "link": "https://atlas.nomic.ai/data/vs2800/cynical-schmidhuber/map",
+      "tags": ["hackathon", "gen ai", "embeddings"]
     },
     {
       "title": "Droplyt",
       "stack": ["Flask, ", "React, ", "Tailwind, ", "Next, ", "Supabase, ", "Mathematica"],
       "date": "Mar 2024",
       "description": "Won 1st – Sustainability @ Yale Hack '24 and ActualFood challenge. DropLyt utilizes computation geometry and constrained optimization to determine the most efficient sprinkler placement for irrigation systems on plots. DropLyt further integrates NOAA APIs to access real-time atmospheric data, controlling sprinklers according to the Penman-Monteith Equation so that water output matches evapotranspiration loss.",
-      "link": "https://github.com/VSandwar74/rust-NN",
+      "link": "https://github.com/VSandwar74/evergreen-yhack-s24",
       "tags": ["hackathon", "full-stack", "math modeling"]
     },
     {
